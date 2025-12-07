@@ -18,7 +18,7 @@ const projects = [
       "A full-stack e-commerce platform built using modern web technologies, enabling users to browse products, manage carts, and complete secure orders smoothly.",
     image: "/projects/project2.png",
     tags: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Razorpay", "Stripe"],
-    demoUrl: "https://drive.google.com/file/d/1Eec66KkoR37plrs-NPiwKsgozSI2J-Kp/view?usp=sharing",
+    demoUrl: "https://drive.google.com/file/d/1t3-AOaR2biQhGhyRATsP1tMD_oVqi4op/view?usp=sharing",
     githubUrl: "https://github.com/Tisha-Coding/Mern_Ecommerce",
   },
 ];
