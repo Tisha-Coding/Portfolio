@@ -8,7 +8,7 @@ const projects = [
       "A real-time collaborative whiteboard built using Tldraw and Supabase, allowing multiple users to draw, edit, and save sessions seamlessly.",
     image: "/projects/project1.png",
     tags: ["React", "Tailwind CSS", "Tldraw SDK", "Supabase"],
-    demoUrl: "https://whiteboard-scratch.vercel.app/",
+    demoUrl: "https://substance-reclaim-decathlon.ngrok-free.dev/",
     githubUrl: "https://github.com/Tisha-Coding/whiteboard-project",
   },
   {
@@ -17,9 +17,19 @@ const projects = [
     description:
       "A full-stack e-commerce platform built using modern web technologies, enabling users to browse products, manage carts, and complete secure orders smoothly.",
     image: "/projects/project2.png",
-    tags: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Razorpay", "Stripe"],
+    tags: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Razorpay", "Stripe", "JWT Authentication"],
     demoUrl: "https://ecommerce-advanced-pink.vercel.app/",
     githubUrl: "https://github.com/Tisha-Coding/ecommerce-advanced",
+  },
+  {
+    id: 3,
+    title: "Team Task Manager App",
+    description:
+      "A full-stack project management platform built using modern web technologies, enabling team members and admins to manage their projects and tasks efficiently.",
+    image: "/projects/project3.png",
+    tags: ["React", "Tailwind CSS", "Node.js", "Express", "PostgreSQL", "Joi", "JWT Authentication"],
+    demoUrl: "https://team-task-manager-lovat.vercel.app/signup",
+    githubUrl: "https://github.com/Tisha-Coding/Team-Task-Manager",
   },
 ];
 

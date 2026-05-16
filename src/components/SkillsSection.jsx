@@ -10,6 +10,9 @@ const skills = [
   { name: "Redux", level: 70, category: "frontend"},
   { name: "TypeScript", level: 50, category: "frontend" },
   { name: "Tailwind CSS", level: 80, category: "frontend" },
+  {name: "Context API", level: 70, category: "frontend"},
+  {name: "Redux Toolkit", level: 70, category: "frontend"},
+  {name: "React Hooks", level: 70, category: "frontend"},
 
   // Backend
   { name: "Node.js", level: 80, category: "backend" },
@@ -17,6 +20,8 @@ const skills = [
   { name: "MongoDB", level: 65, category: "backend" },
   { name: "MySQL", level: 70, category: "backend" },
   {name: "PostgreSQL", level: 70, category: "backend"},
+  {name: "JWT Authentication", level: 90, category: "backend"},
+  {name: "Zod", level: 80, category: "backend"},
 
   // Tools
   { name: "Git", level: 80, category: "tools" },
