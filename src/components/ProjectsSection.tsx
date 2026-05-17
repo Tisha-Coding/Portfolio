@@ -3,13 +3,13 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "WhiteBoard",
+    title: "PulseFeed",
     description:
-      "A real-time collaborative whiteboard built using Tldraw and Supabase, allowing multiple users to draw, edit, and save sessions seamlessly.",
+      "PulseFeed is a high-performance cross-media content hub (a YouTube + Medium hybrid) that streams videos and articles in one infinite, instant-feeling feed — with optimistic engagement, resume-able progress, fast search, and a role-based admin console.",
     image: "/projects/project1.png",
-    tags: ["React", "Tailwind CSS", "Tldraw SDK", "Supabase"],
-    demoUrl: "https://substance-reclaim-decathlon.ngrok-free.dev/",
-    githubUrl: "https://github.com/Tisha-Coding/whiteboard-project",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Node.js", "video.js", "NextAuth", "Zod", "Prisma", "PostgreSQL", "Git", "Github", "Vercel"],
+    demoUrl: "https://pulse-feed-git-main-tishas-projects-a05cea24.vercel.app/",
+    githubUrl: "https://github.com/Tisha-Coding/PulseFeed",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const projects = [
     description:
       "A full-stack e-commerce platform built using modern web technologies, enabling users to browse products, manage carts, and complete secure orders smoothly.",
     image: "/projects/project2.png",
-    tags: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Razorpay", "Stripe", "JWT Authentication"],
+    tags: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Razorpay", "Stripe", "JWT Authentication" , "Git", "Github", "Vercel" , "Render"],
     demoUrl: "https://ecommerce-advanced-pink.vercel.app/",
     githubUrl: "https://github.com/Tisha-Coding/ecommerce-advanced",
   },
@@ -27,9 +27,19 @@ const projects = [
     description:
       "A full-stack project management platform built using modern web technologies, enabling team members and admins to manage their projects and tasks efficiently.",
     image: "/projects/project3.png",
-    tags: ["React", "Tailwind CSS", "Node.js", "Express", "PostgreSQL", "Joi", "JWT Authentication"],
+    tags: ["React", "TypeScript", "Tailwind CSS", "Node.js", "Express", "PostgreSQL", "Joi", "JWT Authentication", "Git", "Github", "Vercel" , "Render"],
     demoUrl: "https://team-task-manager-lovat.vercel.app/signup",
     githubUrl: "https://github.com/Tisha-Coding/Team-Task-Manager",
+  },
+  {
+    id: 4,
+    title: "WhiteBoard",
+    description:
+      "A real-time collaborative whiteboard built using Tldraw and Supabase, allowing multiple users to draw, edit, and save sessions seamlessly.",
+    image: "/projects/project4.png",
+    tags: ["React", "Tailwind CSS", "Tldraw SDK", "Supabase", "Git" , "Github"],
+    demoUrl: "https://substance-reclaim-decathlon.ngrok-free.dev/",
+    githubUrl: "https://github.com/Tisha-Coding/whiteboard-project",
   },
 ];
 

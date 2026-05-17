@@ -15,10 +15,19 @@ export const HeroSection = () => {
             </span>
           </h1>
 
+          <p className="text-xl md:text-3xl font-semibold opacity-0 animate-fade-in-delay-2">
+            <span className="text-foreground/80">A passionate </span>
+            <span className="bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
+              Full Stack Developer
+            </span>
+          </p>
+
           <p className="text-lg md:text-2xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3 leading-relaxed font-light">
-            I build modern and user-friendly websites that look great and work
-            smoothly. I focus on clean design, simple interactions, and a
-            seamless experience for users.
+            I craft modern, user-friendly websites that are{" "}
+            <span className="text-primary/90 font-medium">fast</span>,{" "}
+            <span className="text-primary/90 font-medium">responsive</span>, and
+            beautifully designed — blending clean code with seamless
+            interactions to deliver an effortless experience for every user.
           </p>
 
           <div className="pt-6 opacity-0 animate-fade-in-delay-4">

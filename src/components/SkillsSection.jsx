@@ -7,9 +7,12 @@ const skills = [
   { name: "CSS 3", level: 80, category: "frontend" },
   { name: "JavaScript", level: 80, category: "frontend" },
   { name: "React", level: 85, category: "frontend" },
+  { name: "Next.js", level: 75, category: "frontend" },
+  { name: "NextAuth", level: 70, category: "frontend" },
   { name: "Redux", level: 70, category: "frontend"},
   { name: "TypeScript", level: 50, category: "frontend" },
   { name: "Tailwind CSS", level: 80, category: "frontend" },
+  { name: "Framer Motion", level: 70, category: "frontend" },
   {name: "Context API", level: 70, category: "frontend"},
   {name: "Redux Toolkit", level: 70, category: "frontend"},
   {name: "React Hooks", level: 70, category: "frontend"},
@@ -22,6 +25,7 @@ const skills = [
   {name: "PostgreSQL", level: 70, category: "backend"},
   {name: "JWT Authentication", level: 90, category: "backend"},
   {name: "Zod", level: 80, category: "backend"},
+  {name: "Joi", level: 75, category: "backend"},
 
   // Tools
   { name: "Git", level: 80, category: "tools" },
@@ -31,9 +35,26 @@ const skills = [
   { name: "Fork", level: 70, category: "tools" },
   { name: "Postman", level: 85, category: "tools" },
   { name: "VS Code", level: 95, category: "tools" },
+  { name: "Webpack", level: 65, category: "tools" },
+  { name: "Vite", level: 80, category: "tools" },
+
+  // Concepts
+  { name: "REST API Design", level: 85, category: "concepts" },
+  { name: "Performance Optimization", level: 75, category: "concepts" },
+  { name: "Responsive Design", level: 85, category: "concepts" },
+  { name: "Authentication & Authorization", level: 80, category: "concepts" },
+  { name: "Code Splitting & Lazy Loading", level: 70, category: "concepts" },
+  { name: "Debugging & Testing", level: 75, category: "concepts" },
+
+  // AI Tools
+  { name: "Claude", level: 90, category: "ai tools" },
+  { name: "ChatGPT", level: 90, category: "ai tools" },
+  { name: "Cursor", level: 85, category: "ai tools" },
+  { name: "GitHub Copilot", level: 80, category: "ai tools" },
+  { name: "Perplexity", level: 85, category: "ai tools" },
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "frontend", "backend", "tools", "concepts", "ai tools"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");

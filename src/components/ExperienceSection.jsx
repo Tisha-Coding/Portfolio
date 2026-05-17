@@ -2,14 +2,14 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company: "Innostax Software Labs Pvt LTD",
-    years: "June - Present",
+    years: "June 2025 - Jan 2026",
     description:
       "Developed a complete reporting platform that digitized appraisal workflows and improved data visibility using React, Node.js, TypeScript, Prisma, and PostgreSQL.",
   },
   {
     title: "Full Stack Developer - Intern",
     company: "Austere Systems Limited",
-    years: "Jan - June",
+    years: "Jan 2025 - June 2025",
     description:
       "Migrated a legacy PHP website to a modern React + Node.js stack, boosting performance, UI responsiveness, and overall user experience.",
   },
