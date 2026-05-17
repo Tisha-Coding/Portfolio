@@ -26,6 +26,7 @@ const skills = [
   {name: "JWT Authentication", level: 90, category: "backend"},
   {name: "Zod", level: 80, category: "backend"},
   {name: "Joi", level: 75, category: "backend"},
+  {name: "Prisma ORM", level: 75, category: "backend"},
 
   // Tools
   { name: "Git", level: 80, category: "tools" },
@@ -45,6 +46,8 @@ const skills = [
   { name: "Authentication & Authorization", level: 80, category: "concepts" },
   { name: "Code Splitting & Lazy Loading", level: 70, category: "concepts" },
   { name: "Debugging & Testing", level: 75, category: "concepts" },
+  { name: "OOPS Concepts", level: 85, category: "concepts" },
+  { name: "Data Structures & Algorithms", level: 75, category: "concepts" },
 
   // AI Tools
   { name: "Claude", level: 90, category: "ai tools" },
