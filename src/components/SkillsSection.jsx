@@ -16,17 +16,23 @@ const skills = [
   {name: "Context API", level: 70, category: "frontend"},
   {name: "Redux Toolkit", level: 70, category: "frontend"},
   {name: "React Hooks", level: 70, category: "frontend"},
+  {name: "Tldraw SDK", level: 70, category: "frontend"},
 
   // Backend
   { name: "Node.js", level: 80, category: "backend" },
   { name: "Express.js", level: 75, category: "backend" },
   { name: "MongoDB", level: 65, category: "backend" },
+  { name: "Mongoose", level: 70, category: "backend" },
   { name: "MySQL", level: 70, category: "backend" },
   {name: "PostgreSQL", level: 70, category: "backend"},
   {name: "JWT Authentication", level: 90, category: "backend"},
   {name: "Zod", level: 80, category: "backend"},
   {name: "Joi", level: 75, category: "backend"},
   {name: "Prisma ORM", level: 75, category: "backend"},
+  {name: "Razorpay SDK", level: 75, category: "backend"},
+  {name: "Stripe SDK", level: 75, category: "backend"},
+  {name: "Cloudinary", level: 75, category: "backend"},
+  {name: "Groq API", level: 70, category: "backend"},
 
   // Tools
   { name: "Git", level: 80, category: "tools" },

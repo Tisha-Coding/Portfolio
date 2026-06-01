@@ -1,4 +1,4 @@
-import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { ArrowRight, ExternalLink, Github, LayoutDashboard } from "lucide-react";
 
 const projects = [
   {
@@ -13,13 +13,14 @@ const projects = [
   },
   {
     id: 2,
-    title: "E-commerce Platform",
+    title: "Nexus",
     description:
-      "A full-stack e-commerce platform built using modern web technologies, enabling users to browse products, manage carts, and complete secure orders smoothly.",
+      "Nexus is a premium full-stack e-commerce platform built using modern web technologies, enabling users to browse products, manage carts, and complete secure orders smoothly, with a dedicated admin panel for managing products and orders.",
     image: "/projects/project2.png",
     tags: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Razorpay", "Stripe", "JWT Authentication" , "Git", "Github", "Vercel" , "Render"],
-    demoUrl: "https://ecommerce-advanced-pink.vercel.app/",
-    githubUrl: "https://github.com/Tisha-Coding/ecommerce-advanced",
+    demoUrl: "https://nexus-frontend-three-delta.vercel.app/",
+    adminUrl: "https://nexus-admin-git-main-tishas-projects-a05cea24.vercel.app/",
+    githubUrl: "https://github.com/Tisha-Coding/NEXUS---Premium-E-Commerce-Platform",
   },
   {
     id: 3,
@@ -28,18 +29,18 @@ const projects = [
       "A full-stack project management platform built using modern web technologies, enabling team members and admins to manage their projects and tasks efficiently.",
     image: "/projects/project3.png",
     tags: ["React", "TypeScript", "Tailwind CSS", "Node.js", "Express", "PostgreSQL", "Joi", "JWT Authentication", "Git", "Github", "Vercel" , "Render"],
-    demoUrl: "https://team-task-manager-lovat.vercel.app/signup",
+    demoUrl: "https://team-task-manager-lovat.vercel.app/admin/dashboard",
     githubUrl: "https://github.com/Tisha-Coding/Team-Task-Manager",
   },
   {
     id: 4,
-    title: "WhiteBoard",
+    title: "Nexus - Admin Panel",
     description:
-      "A real-time collaborative whiteboard built using Tldraw and Supabase, allowing multiple users to draw, edit, and save sessions seamlessly.",
+      "The dedicated admin dashboard for the Nexus e-commerce platform, enabling administrators to manage products, orders, inventory, and users with a clean and responsive interface.",
     image: "/projects/project4.png",
-    tags: ["React", "Tailwind CSS", "Tldraw SDK", "Supabase", "Git" , "Github"],
-    demoUrl: "https://substance-reclaim-decathlon.ngrok-free.dev/",
-    githubUrl: "https://github.com/Tisha-Coding/whiteboard-project",
+    tags: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "JWT Authentication", "Git", "Github", "Vercel", "Render"],
+    demoUrl: "https://nexus-admin-git-main-tishas-projects-a05cea24.vercel.app/",
+    githubUrl: "https://github.com/Tisha-Coding/NEXUS---Premium-E-Commerce-Platform",
   },
 ];
 
@@ -94,10 +95,22 @@ export const ProjectsSection = () => {
                       href={project.demoUrl}
                       target="_blank"
                       rel="noopener noreferrer"
+                      title={project.adminUrl ? "User Site" : "Live Demo"}
                       className="p-2 rounded-full text-foreground/70 hover:text-primary hover:bg-primary/10 transition-all duration-300"
                     >
                       <ExternalLink size={22} />
                     </a>
+                    {project.adminUrl && (
+                      <a
+                        href={project.adminUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="Admin Panel"
+                        className="p-2 rounded-full text-foreground/70 hover:text-primary hover:bg-primary/10 transition-all duration-300"
+                      >
+                        <LayoutDashboard size={22} />
+                      </a>
+                    )}
                     <a
                       href={project.githubUrl}
                       target="_blank"
